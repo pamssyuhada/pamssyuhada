@@ -30,13 +30,20 @@ html {
     border-radius:100%;
 }
 
+.contact{
+    width:50%;
+    margin:auto;
+}
 
 
 @media only screen and (max-width: 450px) {
- 
     img.img-detail{
         display:none;
     }
-   
-    
+  }
+
+@media only screen and (max-width: 800px) {
+   .contact{
+    width:100%;
+   }
   }
